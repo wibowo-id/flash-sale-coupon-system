@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"ubersnap/internal/models"
+	"flash-sale-coupon-system/internal/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lib/pq"
@@ -191,4 +191,3 @@ func isUniqueConstraintError(err error) bool {
 		strings.Contains(errMsg, "duplicate key") ||
 		strings.Contains(errMsg, "idx_user_coupon")
 }
-

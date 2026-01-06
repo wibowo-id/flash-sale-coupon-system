@@ -1,4 +1,4 @@
-module ubersnap
+module flash-sale-coupon-system
 
 go 1.23.0
 

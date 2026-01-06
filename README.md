@@ -21,7 +21,7 @@ Alternatively, if running without Docker:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd ubersnap
+   cd flash-sale-coupon-system
    ```
 
 2. Start the application and database:
@@ -543,7 +543,7 @@ Return Success/Error
 ## Project Structure
 
 ```
-ubersnap/
+flash-sale-coupon-system/
 ├── main.go                 # Application entry point
 ├── go.mod                  # Go module dependencies
 ├── Dockerfile              # Docker image definition

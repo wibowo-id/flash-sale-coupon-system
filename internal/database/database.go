@@ -1,7 +1,7 @@
 package database
 
 import (
-	"ubersnap/internal/models"
+	"flash-sale-coupon-system/internal/models"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -24,4 +24,3 @@ func Migrate(db *gorm.DB) error {
 		&models.Claim{},
 	)
 }
-

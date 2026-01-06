@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
-	"ubersnap/internal/config"
-	"ubersnap/internal/database"
-	"ubersnap/internal/handlers"
+	"flash-sale-coupon-system/internal/config"
+	"flash-sale-coupon-system/internal/database"
+	"flash-sale-coupon-system/internal/handlers"
 
 	"github.com/gin-gonic/gin"
 )
@@ -59,4 +59,3 @@ func main() {
 		log.Fatalf("Failed to start server: %v", err)
 	}
 }
-
